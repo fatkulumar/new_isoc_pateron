@@ -137,5 +137,89 @@
         benefits
       </div>
     </div>
+    <div class="flex justify-evenly py-12">
+      <div class="w-2/12">
+        <img src="/body/trophy.png" alt="">
+        <p class="text-center text-2xl text-blue-800 uppercase mt-2">trophy</p>
+      </div>
+      <div class="w-2/12">
+        <img src="/body/money.png" alt="">
+        <p class="text-center text-2xl text-red-500 uppercase mt-2">money</p>
+      </div>
+      <div class="w-2/12">
+        <img src="/body/medal.png" alt="">
+        <p class="text-center text-2xl text-yellow-500 uppercase mt-2">Medal</p>
+      </div>
+    </div>
+    <div class="flex justify-evenly">
+      <div class="w-2/12">
+        <img src="/body/certificate.png" alt="">
+        <p class="text-center text-2xl text-yellow-400 uppercase mt-2">certificate</p>
+      </div>
+      <div class="w-2/12">
+        <img src="/body/merchandise.png" alt="">
+        <p class="text-center text-2xl text-blue-800 uppercase mt-2">merchandise</p>
+      </div>
+    </div>
   </section>
+
+  <section class="pt-24">
+    <div class="flex flex-row justify-center">
+      <div
+        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black text-4xl px-16 py-2"
+      >
+        isoc participant records
+      </div>
+    </div>
+    <div class="flex justify-around py-12">
+      <div class="w-3/12">
+        <img src="/body/planet.png" alt="">
+        <p class="text-center text-2xl text-blue-800 uppercase mt-2">planet</p>
+      </div>
+      <div class="w-2/12">
+        <img src="/body/school.png" alt="">
+        <p class="text-center text-2xl text-red-500 uppercase mt-2">school</p>
+      </div>
+      <div class="w-2/12">
+        <img src="/body/student.png" alt="">
+        <p class="text-center text-2xl text-yellow-500 uppercase mt-2">student</p>
+      </div>
+    </div>
+  </section>
+  
+  <section class="pt-24">
+    <div class="flex flex-row justify-center">
+      <div
+        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black text-4xl px-16 py-2"
+      >
+        isoc 5.0 timeline
+      </div>
+    </div>
+    <div class="flex justify-evenly py-12">
+      <div class="w-2/12 bg-gradient-to-t from-blue-600 to-red-400 rounded-xl py-2 shadow-md">
+        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">registration close</p>
+        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">july, 24 2024</p>
+      </div>
+      <div class="w-2/12 bg-white rounded-xl bg-gradient-to-t from-white to-gray-300 shadow-md">
+        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">final round</p>
+        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">july, 26 2024</p>
+      </div>
+    </div>
+    <div class="flex justify-evenly py-12">
+      <div class="w-2/12 bg-blue-600 rounded-xl py-2 bg-gradient-to-r from-yellow-300 to-red-300 shadow-md">
+        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">open registration</p>
+        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">july, 24 2024</p>
+      </div>
+      <div class="w-2/12 bg-blue-600 rounded-xl bg-gradient-to-r from-red-400 to-blue-900">
+        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">preliminary round</p>
+        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">july, 26 2024</p>
+      </div>
+      <div class="w-2/12 bg-blue-600 rounded-xl bg-gradient-to-r from-gray-400 to-gray-200">
+        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">announcement</p>
+        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">july, 26 2024</p>
+      </div>
+    </div>
+  </section>
+
+
 </template>
