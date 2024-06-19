@@ -2,7 +2,7 @@
   <section>
     <div class="flex justify-between items-center" id="navbarStudent">
       <div class="md:w-full md:truncate md:flex justify-between items-center">
-        <div class="lg:w-8/12 pt-0 md:pt-0">
+        <div class="md:w-8/12 pt-0 md:pt-0">
           <nuxt-link to="/" class="w-full flex items-center">
             <img
               src="/navbar/logo.png"
@@ -11,7 +11,7 @@
             />
           </nuxt-link>
         </div>
-        <div class="mx-10 grid grid-cols-2 md:gap-7 mt-1 gap-2">
+        <div class="lg:mx-10 grid grid-cols-2 md:gap-7 mt-1 gap-2">
           <div
             class="bg-purple-500 flex items-center justify-center text-black border-2 border-black rounded-md py-2 md:px-16"
           >

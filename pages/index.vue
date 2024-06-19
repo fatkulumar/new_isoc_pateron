@@ -1,5 +1,5 @@
 <template>
-  <section class="md:grid grid-cols-2 gap-4 mx-auto container py-16">
+  <section class="md:grid grid-cols-2 gap-4 mx-auto container pt-16">
     <div class="bg-white p-6 rounded">
       <h1 class="text-4xl font-bold mb-4 text-center">Welcome TO ISOC</h1>
       <p class="italic text-center text-gray-400">
@@ -21,7 +21,7 @@
     </div>
   </section>
 
-  <section class="py-16">
+  <section class="py-0">
     <div class="flex flex-row justify-center">
       <div
         class="inline-block uppercase text-center bg-green-300 font-bold mx-auto px-4 py-2 rounded-md border-2 border-black"
@@ -29,7 +29,7 @@
         current event
       </div>
     </div>
-    <div class="bg-green-700 md:mx-32 rounded-3xl">
+    <div class="bg-green-700 md:mx-3 rounded-3xl">
       <div class="lg:grid grid-cols-2 p-6">
         <div>
           <img
@@ -86,44 +86,55 @@
     </div>
   </section>
 
-  <section class="py-12 mx-32">
-    <div class="grid grid-cols-2 gap-16">
-      <div class="bg-gray-400 px-12 py-6">
-          <div class="flex gap-12">
-            <div class="bg-green-600 border-8">
-              <img class="flex justify-center mx-auto" src="/body/earth.png" alt="">
-              <p class="font-bold text-white text-center px-2">
-                Worldwide Recognition and Prestige
-              </p>
-            </div>
-            <div class="bg-green-600 border-8">
-              <img class="flex justify-center mx-auto" src="/body/earth.png" alt="">
-              <p class="font-bold text-white text-center px-2">
-                Worldwide Recognition and Prestige
-              </p>
-            </div>
-          </div>
+  <section class="py-12 lg:mx-3">
+    <div class="lg:grid grid-cols-2 gap-16">
+        <div class="bg-gray-400 lg:px-1 py-12 gap-12 flex flex-wrap justify-center">
 
-          <div class="flex gap-12 pt-6">
             <div class="bg-green-600 border-8">
-              <img class="flex justify-center mx-auto" src="/body/earth.png" alt="">
+              <img class="flex justify-center mx-auto py-1" src="/body/earth.png" alt="">
               <p class="font-bold text-white text-center px-2">
                 Worldwide Recognition and Prestige
               </p>
             </div>
             <div class="bg-green-600 border-8">
-              <img class="flex justify-center mx-auto" src="/body/earth.png" alt="">
+              <img class="flex justify-center mx-auto py-1" src="/body/school.png" alt="">
               <p class="font-bold text-white text-center px-2">
                 Worldwide Recognition and Prestige
               </p>
             </div>
-          </div>
-      </div>
-      <div>
+
+            <div class="bg-green-600 border-8">
+              <img class="flex justify-center mx-auto py-1" src="/body/people.png" alt="">
+              <p class="font-bold text-white text-center px-2">
+                Worldwide Recognition and Prestige
+              </p>
+            </div>
+            <div class="bg-green-600 border-8">
+              <img class="flex justify-center mx-auto py-1" src="/body/female_student.png" alt="">
+              <p class="font-bold text-white text-center px-2">
+                Worldwide Recognition and Prestige
+              </p>
+            </div>
+
+            <!-- <div class="flex gap-12 pt-6">
+              <div class="bg-green-600 border-8">
+                <img class="flex justify-center mx-auto" src="/body/earth.png" alt="">
+                <p class="font-bold text-white text-center px-2">
+                  Worldwide Recognition and Prestige
+                </p>
+              </div>
+              <div class="bg-green-600 border-8">
+                <img class="flex justify-center mx-auto" src="/body/earth.png" alt="">
+                <p class="font-bold text-white text-center px-2">
+                  Worldwide Recognition and Prestige
+                </p>
+              </div>
+            </div> -->
+        </div>
+      <div class="mx-2 pt-12 lg:pt-0">
         <p class="text-4xl uppercase font-bold">why isoc olympiad</p>
-        <p>
-          BE PART OF ISOC OLYMPIAD. <br />
-          ISOC is a leading science institution that has <br /> been at the forefront of innovation since its inception. ISOC is dedicated to empowering students since young age in order to support themselves on facing future challenges with confidence. We specialize in identifying each child's unique abilities and potential, preparing them to excel in experiencing today's competitive landscape. Through the olympiad events, our main goals are : 1. to provide great help on educational terms 2. to inspire students for exploring scientific concepts in depth 3. encouraging the development of their reasoning analytical and problem-solving abilities. Join us on the journey to find your passion and growth with ISOC.
+        <p class="text-justify mb-2">
+          BE PART OF ISOC OLYMPIAD ISOC is a leading science institution that has been at the forefront of innovation since its inception. ISOC is dedicated to empowering students since young age in order to support themselves on facing future challenges with confidence. We specialize in identifying each child's unique abilities and potential, preparing them to excel in experiencing today's competitive landscape. Through the olympiad events, our main goals are : 1. to provide great help on educational terms 2. to inspire students for exploring scientific concepts in depth 3. encouraging the development of their reasoning analytical and problem-solving abilities. Join us on the journey to find your passion and growth with ISOC.
         </p>
       </div>
     </div>
@@ -132,31 +143,32 @@
   <section>
     <div class="flex flex-row justify-center">
       <div
-        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black text-4xl px-16 py-2"
+        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black lg:text-4xl px-16 py-2"
       >
         benefits
       </div>
     </div>
-    <div class="flex justify-evenly py-12">
-      <div class="w-2/12">
-        <img src="/body/trophy.png" alt="">
-        <p class="text-center text-2xl text-blue-800 uppercase mt-2">trophy</p>
+    <div class="flex flex-col lg:flex-row justify-center mx-auto lg:justify-evenly gap-12 py-12">
+      <div class="lg:w-2/12 flex flex-col items-center">
+        <img src="/body/trophy.png" alt="Trophy">
+        <p class="text-center text-2xl text-blue-800 uppercase mt-2">Trophy</p>
       </div>
-      <div class="w-2/12">
-        <img src="/body/money.png" alt="">
-        <p class="text-center text-2xl text-red-500 uppercase mt-2">money</p>
+      <div class="lg:w-2/12 flex flex-col items-center">
+        <img src="/body/money.png" alt="Money">
+        <p class="text-center text-2xl text-red-500 uppercase mt-2">Money</p>
       </div>
-      <div class="w-2/12">
-        <img src="/body/medal.png" alt="">
+      <div class="lg:w-2/12 flex flex-col items-center">
+        <img src="/body/medal.png" alt="Medal">
         <p class="text-center text-2xl text-yellow-500 uppercase mt-2">Medal</p>
       </div>
     </div>
-    <div class="flex justify-evenly">
-      <div class="w-2/12">
+    
+    <div class="flex flex-col lg:flex-row justify-center mx-auto lg:justify-evenly gap-0 py-0">
+      <div class="lg:w-2/12 flex flex-col items-center">
         <img src="/body/certificate.png" alt="">
         <p class="text-center text-2xl text-yellow-400 uppercase mt-2">certificate</p>
       </div>
-      <div class="w-2/12">
+      <div class="lg:w-2/12 flex flex-col items-center">
         <img src="/body/merchandise.png" alt="">
         <p class="text-center text-2xl text-blue-800 uppercase mt-2">merchandise</p>
       </div>
@@ -166,57 +178,109 @@
   <section class="pt-24">
     <div class="flex flex-row justify-center">
       <div
-        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black text-4xl px-16 py-2"
+        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black lg:text-4xl px-16 py-2 text-wrap"
       >
         isoc participant records
       </div>
     </div>
-    <div class="flex justify-around py-12">
-      <div class="w-3/12">
+    <div class="flex flex-col lg:flex-row justify-center mx-auto lg:justify-evenly gap-12 py-12">
+      <div class="lg:w-2/12 flex flex-col items-center">
         <img src="/body/planet.png" alt="">
         <p class="text-center text-2xl text-blue-800 uppercase mt-2">planet</p>
       </div>
-      <div class="w-2/12">
+      <div class="lg:w-2/12 flex flex-col items-center">
         <img src="/body/school.png" alt="">
         <p class="text-center text-2xl text-red-500 uppercase mt-2">school</p>
       </div>
-      <div class="w-2/12">
+      <div class="lg:w-2/12 flex flex-col items-center">
         <img src="/body/student.png" alt="">
         <p class="text-center text-2xl text-yellow-500 uppercase mt-2">student</p>
       </div>
     </div>
   </section>
   
-  <section class="pt-24">
+  <section class="lg:pt-24">
     <div class="flex flex-row justify-center">
       <div
-        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black text-4xl px-16 py-2"
+        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black lg:text-4xl px-16 py-2"
       >
         isoc 5.0 timeline
       </div>
     </div>
-    <div class="flex justify-evenly py-12">
-      <div class="w-2/12 bg-gradient-to-t from-blue-600 to-red-400 rounded-xl py-2 shadow-md">
-        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">registration close</p>
-        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">july, 24 2024</p>
+    <div class="flex-col lg:flex-row mx-auto lg:justify-evenly gap-2 lg:gap-12 py-12 flex justify-center items-center">
+      <div class="lg:w-3/12 bg-gradient-to-t from-blue-600 to-red-400 rounded-xl lg:py-2 shadow-md flex justify-center items-center">
+        <div class="px-24 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-white font-bold">registration close</p>
+          <p class="text-center lg:text-3xl uppercase mb-2 text-white font-bold">july, 24 2024</p>
+        </div>
       </div>
-      <div class="w-2/12 bg-white rounded-xl bg-gradient-to-t from-white to-gray-300 shadow-md">
-        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">final round</p>
-        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">july, 26 2024</p>
+      <div class="lg:w-3/12 bg-white rounded-xl bg-gradient-to-t from-white to-gray-300 shadow-md flex justify-center items-center">
+      <div class="px-32 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-black font-bold">final round</p>
+          <p class="text-center lg:text-3xl uppercase mb-2 text-black font-bold">july, 26 2024</p>
+        </div>
+      </div>
+      <div class="lg:hidden lg:w-3/12 bg-blue-600 rounded-xl py-2 bg-gradient-to-r from-yellow-300 to-red-300 shadow-md  flex justify-center items-center">
+        <div class="px-24 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-black font-bold">open registration</p>
+          <p class="text-center lg:text-3xl uppercase mb-2 text-black font-bold">july, 24 2024</p>
+        </div>
+      </div>
+      <div class="lg:hidden lg:w-3/12 bg-blue-600 rounded-xl bg-gradient-to-r from-red-400 to-blue-900 sm:flex justify-center items-center py-2">
+        <div class="px-24 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-white font-bold">preliminary round</p>
+          <p class="text-center lg:text-3xl uppercase mb-2 text-white font-bold">july, 26 2024</p>
+        </div>
+      </div>
+      <div class="lg:hidden lg:w-3/12 bg-blue-600 rounded-xl bg-gradient-to-r from-gray-400 to-gray-200 sm:flex justify-center items-center py-4 shadow-md">
+        <div class="px-24 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-white font-bold px-4">Announcement</p>
+          <p class="text-center lg:text-3xl uppercase mb-2 text-white font-bold">July, 26 2024</p>
+        </div>
       </div>
     </div>
-    <div class="flex justify-evenly py-12">
-      <div class="w-2/12 bg-blue-600 rounded-xl py-2 bg-gradient-to-r from-yellow-300 to-red-300 shadow-md">
-        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">open registration</p>
-        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">july, 24 2024</p>
+    <div class="flex-col lg:flex-row mx-auto lg:justify-evenly gap-2 lg:gap-12 lg:py-12 lg:flex justify-center items-center hidden">
+      <div class="lg:w-3/12 bg-blue-600 rounded-xl py-2 bg-gradient-to-r from-yellow-300 to-red-300 shadow-md  flex justify-center items-center">
+        <div class="px-24 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-black font-bold">open registration</p> 
+          <p class="text-center lg:text-3xl uppercase mb-2 text-black font-bold">july, 24 2024</p>
+        </div>
       </div>
-      <div class="w-2/12 bg-blue-600 rounded-xl bg-gradient-to-r from-red-400 to-blue-900">
-        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">preliminary round</p>
-        <p class="text-center text-3xl uppercase mt-2 text-white font-bold">july, 26 2024</p>
+      <div class="lg:w-3/12 bg-blue-600 rounded-xl bg-gradient-to-r from-red-400 to-blue-900 flex justify-center items-center py-2">
+        <div class="px-24 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-white font-bold">preliminary round</p>
+          <p class="text-center lg:text-3xl uppercase mb-2 text-white font-bold">july, 26 2024</p>
+        </div>
       </div>
-      <div class="w-2/12 bg-blue-600 rounded-xl bg-gradient-to-r from-gray-400 to-gray-200">
-        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">announcement</p>
-        <p class="text-center text-3xl uppercase mt-2 text-black font-bold">july, 26 2024</p>
+      <div class="lg:w-3/12 bg-blue-600 rounded-xl bg-gradient-to-r from-gray-400 to-gray-200 flex justify-center items-center py-4 shadow-md">
+        <div class="px-24 lg:px-0">
+          <p class="text-center lg:text-3xl uppercase mt-2 text-white font-bold">Announcement</p>
+          <p class="text-center lg:text-3xl uppercase mb-2 text-white font-bold">July, 26 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="pt-0">
+    <div class="flex flex-row justify-center">
+      <div
+        class="inline-block uppercase text-center bg-white font-bold mx-auto rounded-md border-2 border-black lg:text-4xl px-16 py-2"
+      >
+        Category
+      </div>
+    </div>
+    <div class="flex flex-col lg:flex-row justify-center mx-auto lg:justify-evenly gap-12 py-12">
+      <div class="lg:w-2/12 flex flex-col items-center">
+        <img src="/body/math.png" alt="">
+        <p class="text-center text-2xl text-black uppercase">Math</p>
+      </div>
+      <div class="lg:w-2/12 flex flex-col items-center">
+        <img src="/body/science.jpg" alt="">
+        <p class="text-center text-2xl text-black uppercase">Science</p>
+      </div>
+      <div class="lg:w-2/12 flex flex-col items-center">
+        <img src="/body/english.png" alt="">
+        <p class="text-center text-2xl text-black uppercase">student</p>
       </div>
     </div>
   </section>
