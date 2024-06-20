@@ -12,29 +12,29 @@
           </nuxt-link>
         </div>
         <div class="lg:mx-10 grid grid-cols-2 md:gap-7 mt-1 gap-2">
-          <div
+          <a href="#competition"
             class="bg-purple-500 flex items-center justify-center text-black border-2 border-black rounded-md py-2 md:px-16"
           >
             Competition
-          </div>
-          <div
+          </a>
+          <a href="#faq"
             class="bg-white flex items-center justify-center text-black border-2 border-black rounded-md py-2"
           >
             FAQ
-          </div>
-          <div
+          </a>
+          <a href="#practice"
             class="bg-green-400 flex items-center justify-center text-white border-2 border-black rounded-md py-2"
           >
             Practice
-          </div>
-          <div
+          </a>
+          <a href="#contact"
             class="bg-green-500 flex items-center justify-center text-white border-2 border-black rounded-md py-2"
           >
             Contact Us
-          </div>
+          </a>
         </div>
         <div class="pb-2 mb-5">
-          <nuxt-link to="/" class="flex items-center">
+          <nuxt-link to="/accounts/login" class="flex items-center">
             <button
               class="px-32 py-2 mt-3 border-2 border-black border-collapse rounded-md text-white bg-purple-500 w-full"
             >
@@ -42,7 +42,7 @@
             </button>
           </nuxt-link>
           Don't have an account yet ?
-          <nuxt-link to="/" class="flex items-center">
+          <nuxt-link to="/accounts/daftar" class="flex items-center">
             <button
               class="px-6 border-2 border-black border-collapse rounded-md text-black bg-purple-300 w-full py-2 md:py-0 md:w-7/12"
             >
@@ -55,9 +55,9 @@
     <div
       class="bg-red-100 flex justify-center items-center md:justify-around p-8 flex-col md:flex-row"
     >
-      <a href="" class="hover:underline"> About </a>
-      <a href="" class="hover:underline"> Category </a>
-      <a href="" class="hover:underline"> Benefit </a>
+      <a href="#about" class="hover:underline"> About </a>
+      <a href="#category" class="hover:underline"> Category </a>
+      <a href="#benefit" class="hover:underline"> Benefit </a>
       <a href="" class="hover:underline"> Announcements </a>
       <a href="" class="hover:underline"> Syilabus </a>
       <a href="" class="hover:underline"> Tutorial </a>
